@@ -24,6 +24,11 @@ img {
     max-height: 300px;
     width: 100%;
     object-fit: cover;
+    margin-bottom: 1em;
+}
+
+.article-image {
+    margin-bottom: 1.5em;
 }
 
 /* ====================
@@ -133,7 +138,8 @@ nav a:hover {
 }
 
 .article-info {
-    margin: 2em 0;
+    margin-top: 0;
+    margin-bottom: 2em;
 }
 
 /* ---- Widgets ---- */
