@@ -118,6 +118,14 @@ nav a:hover {
     font-size: 1.5rem;
 }
 
+.article-title {
+    margin-bottom: 1em
+}
+
+.article-body {
+    margin-top: 0;
+}
+
 .article-read-more,
 .article-info {
     font-size: 0.875rem;
@@ -156,6 +164,23 @@ nav a:hover {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+/* ---- Footer ---- */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.motto {
+    margin: 0 0 0.75em;
+}
+
+.copyright {
+    margin: 0;
 }
 
 /* ====================
@@ -280,6 +305,7 @@ nav a {
     }
 
     .article-recent-main {
+        margin-left: 0.675em;
         width: 68%;
     }
 
@@ -304,7 +330,7 @@ nav a {
 }
 
 .widget-body {
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .widget-recent-post:last-child {
