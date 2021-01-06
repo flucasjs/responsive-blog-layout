@@ -227,6 +227,10 @@ footer {
 
 /* ---- Navigation ---- */
 
+nav {
+    margin: 0;
+}
+
 nav ul {
     display: flex;
     flex-direction: column;
@@ -248,6 +252,11 @@ nav a {
 }
 
 @media (min-width: 675px) {
+    nav {
+        display: flex;
+        align-items: center;
+    }
+
     nav ul {
         flex-direction: row;
     }
